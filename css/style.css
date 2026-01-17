@@ -34,6 +34,38 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	display: flex;
+	color: #fff;
+
+	a{
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.473);
+	}
+
+	ul{
+		list-style: none;
+		display: flex;
+		gap:1rem;
+
+		li:nth-child(2){
+			position: relative;
+		}
+		
+		li:nth-child(2)::after{
+			content: "";
+			display: block;
+			width: 4px;
+			height: 4px;
+			background-color: rgba(255, 0, 0, 0.178);
+			border-radius: 50%;
+			position: absolute;
+			top:0;
+			right: 0;
+			left: 100%;
+		}
+	}
+	
 }
 
 /* Footer */
