@@ -31,6 +31,7 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	padding: 1rem;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -42,7 +43,9 @@ video {
 		text-decoration: none;
 		color: rgba(255, 255, 255, 0.473);
 	}
-
+	.left, .right{
+		font-size:1.25rem;
+	}
 	ul{
 		list-style: none;
 		display: flex;
@@ -51,7 +54,6 @@ video {
 		li:nth-child(2){
 			position: relative;
 		}
-		
 		li:nth-child(2)::after{
 			content: "";
 			display: block;
@@ -63,6 +65,14 @@ video {
 			top:0;
 			right: 0;
 			left: 100%;
+		}
+		li:last-child{
+			
+			a{
+				color: #fff;
+				
+			}
+			
 		}
 	}
 	
