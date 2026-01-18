@@ -97,9 +97,43 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	color: #fff;
+	text-align: center;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	.item{
+		position: relative;
+		margin-bottom: 1.5rem;
+
+		
+		& > [class^='bi']{
+			font-size: 2rem;
+		}
+		
+	}
+	
+	.item .logo{
+		border-radius: 50%;
+		border-color: #fff;
+		border: 2px solid;
+	}
+	
+    .plus_circle{
+		display: block;
+		position:absolute;
+		left: 34%;
+		bottom: 0%;
+		background-color: red;
+		border-radius: 50%;
+		width:16px;
+		height: 16px;
+		line-height: 1;
+		text-align: center;
+		
+	}
+	
 }
 
 /* ---------------------
